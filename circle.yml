@@ -1,7 +1,12 @@
 machine:
   node:
     version: 4.4.0
-
+dependencies:
+  post:
+    - npm start
+    - sleep 150 # wait for the server to start
+    - npm run protractor
+    
 test:
   pre:
     - npm install -g protractor

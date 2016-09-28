@@ -14,7 +14,7 @@
   },
    "scripts": {
     "preupdate-webdriver": "npm install",
-    "update-webdriver": "webdriver-manager update --standalone",
+    "update-webdriver": "node_modules/protractor/bin/webdriver-manager update",
     "preprotractor": "webdriver-manager start",
     "protractor": "protractor config.js"
   }

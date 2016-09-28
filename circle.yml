@@ -8,4 +8,3 @@ test:
     - sleep 5
   override:
     - npm run protractor
-    - npm run update-webdriver
